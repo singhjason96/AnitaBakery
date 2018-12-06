@@ -1,0 +1,40 @@
+:root {
+
+
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+#logo {
+  background-image: url("http://globeatmica.com/site/wp-content/uploads/2012/06/Anita-Baker-proof-MM2-500x477.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: auto;
+}
+
+#name {
+  padding-left: 10%;
+  padding-top: 2%;
+  color: #d9b3ff;
+}
+
+a.nav-item.nav-link{
+  color: #bf80ff;
+  font-size: 20px;
+}
+
+
+
+
+
+h2 {
+  padding-top: 100%;
+  text-align: center;
+}
+
+h1 {
+
+  font-family: sans-serif;
+  font-size: 40px;
+}

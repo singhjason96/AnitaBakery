@@ -1,0 +1,52 @@
+<style>
+  .row{
+    padding-top: 100px;
+  }
+  .column:nth-child(1){
+    height: 300px;
+    width: 300px;
+    background-image: url("https://www.cscassets.com/recipes/wide_cknew/wide_27102.jpg");
+    background-size: cover;
+    margin: 0em 1em;
+
+  }
+
+  .column:nth-child(2){
+    height: 300px;
+    width: 300px;
+    background-image:url("https://img1.southernliving.timeinc.net/sites/default/files/styles/medium_2x/public/image/2017/10/main/arkansas_black_apple_pie_with_caramel_sauce_2540501_pieso_675.jpg?itok=iUlqw3oU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0em 1em;
+  }
+  .column:nth-child(3){
+    height: 300px;
+    width: 300px;
+    background-image:url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/1/24/2/FNM_030112-Sugar-Fix-001_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371603248592.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0em 1em;
+  }
+
+  </style>
+  <div class="container">
+<div class="row">
+  <div class="column">
+  <h2><%=@pie1.flavor%><br>
+  <%=@pie1.price%><br>
+<%=@pie1.description%>
+<a href="https://twitter.com/IgottheJazz">@IgottheJazz</a></h2>
+  </div>
+  <div class="column">
+  <h2><%=@pie2.flavor%><br>
+  <%=@pie2.price%><br>
+  <%=@pie2.description%></h2>
+  </div>
+  <div class="column">
+  <h2><%=@pie3.flavor%><br>
+  <%=@pie3.price%><br>
+  <%=@pie3.description%></h2>
+  </div>
+</div>
+</div>
+<style>
