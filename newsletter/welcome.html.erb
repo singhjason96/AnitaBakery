@@ -1,29 +1,42 @@
 <style>
-  .column:nth-child(1){
-    height: 300px;
-    width: 300px;
-    background-image: url("https://pinchofyum.com/wp-content/uploads/Chocolate-Chip-Cookies-Recipe-225x225.jpg");
-    background-size: cover;
-    background-repeat: none;
-    margin: 0em 1em;
-  }
+  .grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-column-gap: 10px;
+ grid-row-gap: 10px;
+}
+.grid-item1 {
+ padding: 10px;
+ background-color: lightgrey;
+ background-image: url("https://www.simplyrecipes.com/wp-content/uploads/2015/08/peanut-butter-cookies-horiz-a-1800.jpg");
+ height: 300px;
+ width: 300px;
+ background-size: contain;
+ background-repeat: none;
+}
+.grid-item2) {
+ padding: 10px;
+ background-color: lightgrey;
+ background-image:url("https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/1/24/2/FNM_030112-Sugar-Fix-001_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371603248592.jpeg");
+ height: 300px;
+ width: 300px;
+}
+.grid-item3 {
+ padding: 10px;
+ background-color: lightgrey;
+ background-image: url("https://pinchofyum.com/wp-content/uploads/Chocolate-Chip-Cookies-Recipe-225x225.jpg");
+ height: 300px;
+ width: 300px;
+ background-repeat: none;
+}
 
-  .column:nth-child(2){
-    height: 300px;
-    width: 300px;
-    background-image: url("https://www.simplyrecipes.com/wp-content/uploads/2015/08/peanut-butter-cookies-horiz-a-1800.jpg");
-    background-size: cover;
-    background-repeat: none;
-    margin: 0em 1em;
-
-  }
-
-
-  </style>
+</style>
 
 <h1>Thanks For Signing Up! WE GOT ALL THIS</h1>
+<div class="grid">
 <div class="row">
-  <div class="column"></div>
-  <div class="column"></div>
+  <div class="grid-item1"></div>
+  <div class="grid-item2"></div>
+  <div class="grid-item3"></div>
   </div>
-  
+  </div>
